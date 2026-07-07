@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  # Product Database
+  product-db:
+    image: postgres:18
+    container_name: product-db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: nabin99
+      POSTGRES_DB: product-service
+    volumes:
+      - ./product-data:/var/lib/postgresql/data
+
+  # Order Database
+  order-db:
+    image: postgres:18
+    container_name: order-db
+    ports:
+      - "5433:5432" # Different host port (5433)
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: nabin99
+      POSTGRES_DB: order-service
+    volumes:
+      - ./order-data:/var/lib/postgresql/data
