@@ -64,13 +64,12 @@ cd product-service
 ## 📂 Project Structure
 
 ```text
-microservices-ecommerce/
-├── .git/                 # Git tracking
+microservices-ecommerce
+└── product-service/       # Current active microservice
 ├── .gitignore            # Excludes build artifacts and IDE files
-├── docker-compose.yml    # Infrastructure orchestration
 ├── LICENSE               # MIT License
 ├── README.md             # Project documentation
-└── product-service/      # Current active microservice
+├── docker-compose.yml    # Infrastructure orchestration
 
 ```
 
