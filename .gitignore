@@ -5,3 +5,7 @@ product-service/mvnw
 order-service/.mvn/wrapper/maven-wrapper.properties
 order-service/mvnw.cmd
 order-service/mvnw
+/order-data/18/docker/base/1
+/order-data/18/docker/base/16384
+/order-data
+/product-data
