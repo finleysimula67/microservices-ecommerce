@@ -1,3 +1,7 @@
 product-service/.mvn/wrapper/maven-wrapper.properties
 product-service/mvnw.cmd
 product-service/mvnw
+/.idea
+order-service/.mvn/wrapper/maven-wrapper.properties
+order-service/mvnw.cmd
+order-service/mvnw
