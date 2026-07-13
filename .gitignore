@@ -10,3 +10,6 @@ order-service/mvnw
 /order-data
 /product-data
 qodana.yaml
+inventory-service/inventory-service/mvnw
+inventory-service/inventory-service/mvnw.cmd
+inventory-service/inventory-service/.mvn/wrapper/maven-wrapper.properties
