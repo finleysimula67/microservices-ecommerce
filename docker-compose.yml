@@ -24,3 +24,16 @@ services:
       POSTGRES_DB: order-service
     volumes:
       - ./order-data:/var/lib/postgresql
+
+  # Inventory Database
+  inventory-db:
+    image: postgres:18
+    container_name: inventory-db
+    ports:
+      - "5434:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: nabin99
+      POSTGRES_DB: inventory-service
+    volumes:
+      - ./inventory-data:/var/lib/postgresql
