@@ -1,4 +1,4 @@
-package com.strivex.microserviices.order.model;
+package com.strivex.microservices.order.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

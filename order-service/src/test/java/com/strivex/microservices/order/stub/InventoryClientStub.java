@@ -1,4 +1,4 @@
-package com.strivex.microserviices.order.stub;
+package com.strivex.microservices.order.stub;
 
 import static com.github.tomakehurst.wiremock.client.WireMock.*;
 

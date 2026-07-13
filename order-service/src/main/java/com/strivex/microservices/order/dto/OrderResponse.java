@@ -1,4 +1,4 @@
-package com.strivex.microserviices.order.dto;
+package com.strivex.microservices.order.dto;
 
 import java.math.BigDecimal;
 

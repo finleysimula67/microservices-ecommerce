@@ -1,6 +1,6 @@
-package com.strivex.microserviices.order.repository;
+package com.strivex.microservices.order.repository;
 
-import com.strivex.microserviices.order.model.Order;
+import com.strivex.microservices.order.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

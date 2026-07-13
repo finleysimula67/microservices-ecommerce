@@ -1,8 +1,8 @@
-package com.strivex.microserviices.order.controller;
+package com.strivex.microservices.order.controller;
 
-import com.strivex.microserviices.order.dto.OrderRequest;
-import com.strivex.microserviices.order.dto.OrderResponse;
-import com.strivex.microserviices.order.service.OrderService;
+import com.strivex.microservices.order.dto.OrderRequest;
+import com.strivex.microservices.order.dto.OrderResponse;
+import com.strivex.microservices.order.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
